@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist/cjs"
+  },
+//  "tsc-alias": {
+//    "verbose": false,
+//    "resolveFullPaths": true,
+//    //        "fileExtensions": {
+//    //            "inputGlob": "js,jsx,mjs",
+//    //            "outputCheck": ["js", "json", "jsx", "mjs"]
+//    //        }
+//  },
+
+  "extends": "./tsconfig.json",
+  "include": ["./src/**/*.ts", "./src/**/*.js", "./src/.*.js"],
+  "exclude": ["./node_modules","./dist/**/*","./src/**/*.spec.ts"]
+}

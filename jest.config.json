@@ -1,0 +1,21 @@
+{
+  "moduleNameMapper": {
+    "^@common(.*)$": "<rootDir>/src/common$1",
+    "^@core(.*)$": "<rootDir>/src/core$1",
+    "^@data(.*)$": "<rootDir>/src/data$1",
+    "^@error(.*)$": "<rootDir>/src/error$1",
+    "^@utils(.*)$": "<rootDir>/src/utils$1"
+  },
+  "transform": {
+    "^.+\\.(j|t)sx?$": "ts-jest"
+  },
+  "testRegex": "(/__tests__/.*|(\\.|/)(spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ]
+}
